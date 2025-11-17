@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: asyncmicroservice
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: asyncProject-springboot-mongodb-demo
+
+server:
+  port: 8089
+
+cod:
+  demo:
+    file: asyncmicroservice/Files/testfile.txt
+
+
+
+
+
+
+
+
+
