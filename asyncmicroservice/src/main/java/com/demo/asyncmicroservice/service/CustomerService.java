@@ -22,7 +22,7 @@ public class CustomerService {
 
         if (CollectionUtils.isEmpty(customerList)) {
             log.info("No customer found by name {}", name);
-            return new ArrayList<Customer>();
+            return new ArrayList<>();
         }
         log.info("found {} customers by name {}", customerList.size(), name);
         return customerList;
